@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #264653;
+}
+@media only screen and (min-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+    main {
+    }
+
+
+
+    nav a {
+        font-family: 'Outfit', sans-serif;
+        float: right;
+        color: #66bcdf;
+        padding: 50px 30px;
+        text-decoration: none;
+    }
+
+    nav {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    nav a:hover {
+        border-radius: 5px;
+        background-color: #66bcdf;
+        color: #264653;
+    }
+
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 120px;
+    }
+
+    #logo:hover {
+        width: 150px;
+    }
+
+    p {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .quotetxt {
+        color: #66bcdf;
+        font-size: 100px;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    #quote {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    #rtext {
+        margin-bottom: 400px;
+    }
+
+    .quoteimg {
+        border-radius: 10px;
+        position: absolute;
+        max-width: 100%;
+        margin: 0;
+        z-index: -1;
+    }
+
+    #buttons {
+        max-width: 100%;
+    }
+
+    .Nutritional {
+        opacity: 10%;
+        top: 1120px;
+        left: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 400px;
+    }
+
+    .fitness {
+        opacity: 10%;
+        top: 1120px;
+        right: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 400px;
+    }
+
+    .fitnessp {
+        font-size: 50px;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        position: absolute;
+        right: 45%;
+        top: 1180px;
+        max-width: 100%;
+        width: 400px;
+    }
+
+    .nutrip {
+        font-size: 50px;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        position: absolute;
+        top: 1180px;
+        left: 55%;
+    }
+
+    .blackf {
+        opacity: 00%;
+        right: 50%;
+        position: absolute;
+        max-width: 100%;
+        top: 1120px;
+        width: 400px;
+    }
+
+    .blackn {
+        opacity: 0;
+        left: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 400px;
+        top: 1120px;
+    }
+
+    .blackn:hover {
+        opacity: .5;
+    }
+
+    .blackf:hover {
+        opacity: .5;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    #sm img {
+        padding-right: 20px;
+        width: 30px;
+    }
+
+    #sm a {
+        text-decoration: none;
+    }
+
+    footer p {
+
+        color: #66bcdf;
+    }
+
+
+    #sm img:hover {
+        width: 40px;
+    }
+
+    #sm p:hover {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px){    main {
+}
+
+
+
+    nav a {
+        font-family: 'Outfit', sans-serif;
+        float: right;
+        color: #66bcdf;
+        padding: 30px 20px;
+        text-decoration: none;
+    }
+
+    nav {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    nav a:hover {
+        border-radius: 5px;
+        background-color: #66bcdf;
+        color: #264653;
+    }
+
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 80px;
+    }
+
+    #logo:hover {
+        width: 120px;
+    }
+
+    p {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .quotetxt {
+        color: #66bcdf;
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    #quote {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    #rtext {
+        margin-bottom: 200px;
+    }
+
+    .quoteimg {
+        border-radius: 10px;
+        position: absolute;
+        max-width: 100%;
+        margin: 0;
+        z-index: -1;
+    }
+
+    #buttons {
+        max-width: 100%;
+    }
+
+    .Nutritional {
+        opacity: 10%;
+        top: 750px;
+        left: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .fitness {
+        opacity: 10%;
+        top: 750px;
+        right: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .fitnessp {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        position: absolute;
+        right: 45%;
+        top: 760px;
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .nutrip {
+        font-size:25px;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        position: absolute;
+        top: 760px;
+        left: 55%;
+    }
+
+    .blackf {
+        opacity: 00%;
+        right: 50%;
+        position: absolute;
+        max-width: 100%;
+        top: 750px;
+        width: 200px;
+    }
+
+    .blackn {
+        opacity: 0;
+        left: 50%;
+        position: absolute;
+        max-width: 100%;
+        width: 200px;
+        top: 750px;
+    }
+
+    .blackn:hover {
+        opacity: .5;
+    }
+
+    .blackf:hover {
+        opacity: .5;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    #sm img {
+        padding-right: 20px;
+        width: 30px;
+    }
+
+    #sm a {
+        text-decoration: none;
+    }
+
+    footer p {
+
+        color: #66bcdf;
+    }
+
+
+    #sm img:hover {
+        width: 40px;
+    }
+
+    #sm p:hover {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+body {
+    background-color: #264653;
+}
+nav a {
+    font-family: 'Outfit', sans-serif;
+    float: right;
+    color: #66bcdf;
+    padding: 50px 30px;
+    text-decoration: none;
+}
+
+nav {
+    overflow: hidden;
+}
+.prodes{
+    font-family: 'Outfit', sans-serif;
+}
+.ad{
+    max-width: 100%;
+}
+main{
+    border-style: solid;
+    border-color: #66bcdf;
+}
+.price{
+    float: left;
+    text-decoration: line-through;
+}
+.newprice{
+    float: right;
+    font-family: 'Outfit', sans-serif;
+}
+.products{
+    margin: 20px;
+    height: 800px;
+    width: 100%;
+}
+.individualproduct{
+    float: left;
+    background-color: #66bcdf;
+    padding: 20px;
+    margin: 0;
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #264653;
+}
+.products img{
+    height: 200px;
+    max-height: 100%;
+}
+.individualproduct:hover{
+    background-color: white;
+}
+nav a:hover {
+    border-radius: 5px;
+    background-color: #66bcdf;
+    color: #264653;
+}
+footer {
+    padding: 20px;
+}
+
+#sm img {
+    padding-right: 20px;
+    width: 30px;
+}
+
+#sm a {
+    text-decoration: none;
+}
+
+footer p {
+    color: #66bcdf;
+}
+
+#logo {
+    padding: 0;
+    margin: 0;
+    width: 120px;
+}
+
+#logo:hover {
+    width: 150px;
+}
+
+#sm img:hover {
+    width: 40px;
+}
+
+#sm p:hover {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: #264653;
+    }
+
+
+    nav a {
+        font-family: 'Outfit', sans-serif;
+        float: right;
+        color: #66bcdf;
+        padding: 50px 30px;
+        text-decoration: none;
+    }
+
+    nav {
+        overflow: hidden;
+        border-top-radius: 20px;
+    }
+
+    nav a:hover {
+        border-radius: 5px;
+        background-color: #66bcdf;
+        color: #264653;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    #sm img {
+        padding-right: 20px;
+        width: 30px;
+    }
+
+    #sm a {
+        text-decoration: none;
+    }
+
+    footer p {
+        color: #66bcdf;
+    }
+
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 120px;
+    }
+
+    #logo:hover {
+        width: 150px;
+    }
+
+    #sm img:hover {
+        width: 40px;
+    }
+
+    #sm p:hover {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    main {
+    }
+
+
+    nav a {
+        font-family: 'Outfit', sans-serif;
+        float: right;
+        color: #66bcdf;
+        padding: 30px 20px;
+        text-decoration: none;
+    }
+
+    nav {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    nav a:hover {
+        border-radius: 5px;
+        background-color: #66bcdf;
+        color: #264653;
+    }
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 80px;
+    }
+
+    #logo:hover {
+        width: 120px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    main p{
+        font-size: 20px;
+        border-style: solid;
+        border: 2px;
+    }
+}
